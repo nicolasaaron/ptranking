@@ -46,7 +46,7 @@ if __name__ == '__main__':
 
 	debug = True            # in a debug mode, we just check whether the model can operate
 
-	config_with_json = False # specify configuration with json files or not
+	config_with_json = True # specify configuration with json files or not
 
 	reproduce = False 		# given pre-trained models, reproduce experiments
 
@@ -68,8 +68,9 @@ if __name__ == '__main__':
 	if config_with_json: # specify configuration with json files
 		# the directory of json files
 		#dir_json = '/Users/dryuhaitao/WorkBench/Dropbox/CodeBench/GitPool/wildltr_ptranking/testing/ltr_adhoc/json/'
-		dir_json = '/Users/solar/WorkBench/Dropbox/CodeBench/GitPool/wildltr_ptranking/testing/ltr_adhoc/json/'
+		#dir_json = '/Users/solar/WorkBench/Dropbox/CodeBench/GitPool/wildltr_ptranking/testing/ltr_adhoc/json/'
 		#dir_json = '/home/dl-box/WorkBench/Dropbox/CodeBench/GitPool/wildltr_ptranking/testing/ltr_adhoc/json/'
+		dir_json = '/mnt/d/self_projects/ptranking/testing/ltr_adhoc/json/'
 
 		# reco - linear
 		#dir_json = '/Users/dryuhaitao/WorkBench/Experiments/RECO/Linear/'

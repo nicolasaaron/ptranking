@@ -12,10 +12,10 @@
   },
 
   "EvalSetting": {
-    "dir_output":"/mnt/d/self_projects/codebench/output/ListMLE/",
+    "dir_output":"/mnt/d/self_projects/codebench/output/RankNet/",
     "epochs":2,
 
-    "do_validation":true,
+    "do_validation":false,
 
     "vali_k":5,
     "cutoffs":[1, 3, 5, 10, 20, 50],

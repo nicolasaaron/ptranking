@@ -1,0 +1,21 @@
+name: pytorch
+channels:
+  - conda-forge
+  - anaconda
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - scikit-learn
+  - numpy
+  - panda
+  - matplotlib
+  - lightgbm
+  - xgboost
+  - notebook
+  - jupyterlab
+  - nb_conda_kernels
+  - jupyter_contrib_nbextensions
+  - ipykernel
+  - pip:
+    - ptranking
