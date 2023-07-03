@@ -1,7 +1,7 @@
 {
   "DataSetting": {
     "data_id":"MQ2008_Super",
-    "dir_data":"/Users/iimac/Workbench/Corpus/L2R/LETOR4.0/MQ2008/",
+    "dir_data":"/mnt/d/self_projects/databench/LETOR4/MQ2008/",
     "min_docs":[10],
     "min_rele":[1],
     "scaler_id":"StandardScaler",
@@ -12,7 +12,7 @@
   },
 
   "EvalSetting": {
-    "dir_output":"/Users/iimac/Workbench/CodeBench/Output/NeuralLTR/",
+    "dir_output":"/mnt/d/self_projects/codebench/output/ListMLE/",
     "epochs":2,
 
     "do_validation":true,
