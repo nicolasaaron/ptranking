@@ -436,11 +436,11 @@ class LTREvaluator():
     def iterate_eval_setting(self):
         return self.eval_setting.grid_search()
 
-    def set_scoring_function_setting(self, sf_json=None, debug=None, sf_id=None):
+    def set_scoring_function_setting(self, sf_json=None, debug=None, data_dict=None):
         if sf_json is not None:
             self.sf_parameter = ScoringFunctionParameter(sf_json=sf_json)
         else:
-            self.sf_parameter = ScoringFunctionParameter(debug=debug, sf_id=sf_id)
+            self.sf_parameter = ScoringFunctionParameter(debug=debug, data_dict=data_dict)
 
     def get_default_scoring_function_setting(self):
         return self.sf_parameter.default_para_dict()

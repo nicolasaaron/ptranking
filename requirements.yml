@@ -1,5 +1,6 @@
-name: pytorch
+name: pytorch_ltr
 channels:
+  - defaults
   - conda-forge
   - anaconda
   - pytorch
@@ -8,13 +9,12 @@ dependencies:
   - pip
   - scikit-learn
   - numpy
-  - panda
+  - pandas
   - matplotlib
   - lightgbm
   - xgboost
   - notebook
   - jupyterlab
-  - nb_conda_kernels
   - jupyter_contrib_nbextensions
   - ipykernel
   - pip:
